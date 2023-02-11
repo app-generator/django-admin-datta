@@ -1,0 +1,90 @@
+{% extends 'layouts/base-auth.html' %}
+{% load i18n static admin_datta %}
+
+{% block content %}
+
+    <div class="auth-wrapper">
+        <div class="auth-content">
+            <div class="auth-bg">
+                <span class="r"></span>
+                <span class="r s"></span>
+                <span class="r s"></span>
+                <span class="r"></span>
+            </div>
+            <div class="card">
+                <form method="post" class="card-body text-center">
+                    {% csrf_token %}
+
+                  
+                    <div class="mb-4">
+                        <i class="feather icon-unlock auth-icon"></i>
+                    </div>
+                    <h3 class="mb-4">Login</h3>
+                    {% if form.non_field_errors %}
+                        {% for error in form.non_field_errors %}
+                            <span class="text-danger d-block my-3">{{ error }}</span>
+                        {% endfor %}
+                    {% endif %}
+                    <div class="input-group mb-3">
+                        <input 
+                          type="text" 
+                          class="form-control"
+                          name="{{ form.username.name }}" 
+                          id="{{ form.username.id_for_label }}"
+                          placeholder="{{ form.username.label }}"
+                        >
+                    </div>
+                    <div class="input-group mb-3">
+                      <input 
+                        type="password" 
+                        class="form-control"
+                        name="{{ form.password.name }}" 
+                        id="{{ form.password.id_for_label }}"
+                        placeholder="{{ form.password.label }}"
+                      >
+                    </div>
+                    <button class="btn btn-primary shadow-2 mb-4">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <label class="d-none">
+        <i class="icon feather icon-sun" id="theme-indicator"></i>
+        <input type="checkbox" id="theme-switch" class="d-none">
+    </label>
+
+{% endblock content %}
+
+{% block extra_js %}
+
+<script type="application/javascript">
+  {% if form.username.errors %}
+      notification.danger("{{ form.username.errors }}", 'top', 'right');
+  {% endif %}
+  {% if form.password.errors %}
+      notification.danger("{{ form.password.errors }}", 'top', 'right');
+  {% endif %}
+
+  {% if user.is_authenticated %}
+      var msg = "You are authenticated as {{ username }}, but are not authorized to " +
+          "access this page.Would you like to login to a different account ?"
+      notification.warning(msg, 'top', 'right');
+  {% endif %}
+
+  {% if form.errors and not form.non_field_errors %}
+      {% if form.errors.items|length == 1 %}
+          notification.warning("{% trans "Please correct the error below." %}", 'top', 'right');
+      {% else %}
+          notification.warning("{% trans "Please correct the errors below." %}", 'top', 'right');
+      {% endif %}
+  {% endif %}
+
+  {% if form.non_field_errors %}
+      {% for error in form.non_field_errors %}
+          notification.warning("{{ error|clean_text }}", 'top', 'right');
+      {% endfor %}
+  {% endif %}
+</script>
+
+{% endblock extra_js %}
