@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.3] 2023-02-27
+### Changes
+
+- JS Code cleanUP (minor)
+
 ## [1.0.2] 2023-02-27
 ### Changes
 
