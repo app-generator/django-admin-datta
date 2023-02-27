@@ -24,7 +24,7 @@ an open-source `Bootstrap` design from [CodedThemes](https://bit.ly/37fF9RT).
 
 <br />
 
-## Why `Django Admin Material`
+## Why `Django Datta Able`
 
 - Modern [Bootstrap](https://www.admin-dashboards.com/bootstrap-5-templates/) Design
 - `Responsive Interface`
