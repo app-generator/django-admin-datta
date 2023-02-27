@@ -24,7 +24,7 @@ an open-source `Bootstrap` design from [CodedThemes](https://bit.ly/37fF9RT).
 
 <br />
 
-## Why `Django Datta Able`
+## Why [Django Datta Able]([Datta Able](https://appseed.us/product/datta-able/django/))
 
 - Modern [Bootstrap](https://www.admin-dashboards.com/bootstrap-5-templates/) Design
 - `Responsive Interface`
@@ -159,11 +159,12 @@ In a similar way, all other files and components can be customized easily.
 
 <br />
 
-## PRO Version
+## [Datta Able](https://appseed.us/product/datta-able-pro/django/) `PRO Version`
 
 > For more components, pages and priority on support, feel free to take a look at this amazing starter:
 
-Designed for those who like bold elements and beautiful websites, **Datta Able** is the most stylish Bootstrap 4 Admin Template compare to all other Bootstrap admin templates. It comes with high feature-rich pages and components with fully developer-centric code. 
+Designed for those who like bold elements and beautiful websites, **[Datta Able](https://appseed.us/product/datta-able-pro/django/)** is the most stylish Admin Design compare to all other Bootstrap Templates. 
+It comes with high feature-rich pages and components with fully developer-centric code. 
 
 - 👉 [Django Datta PRO](https://appseed.us/product/datta-able-pro/django/) - product page
   - ✅ `Enhanced UI` - more pages and components
