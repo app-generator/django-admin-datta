@@ -7,10 +7,6 @@ an open-source `Bootstrap` design from [CodedThemes](https://bit.ly/37fF9RT).
 
 <br />
 
-> UI Kit: https://github.com/app-generator/cth-datta-able-bs4
-
-<br />
-
 **Links & Resources**
 
 - [Django Datta Able](https://appseed.us/product/datta-able/django/) - `Product page`
@@ -124,8 +120,8 @@ The theme used to style this starter provides the following files:
    |-- templates/                     # Root Templates Folder 
    |    |          
    |    |-- accounts/       
-   |    |    |-- login.html           # Sign IN Page
-   |    |    |-- register.html        # Sign UP Page
+   |    |    |-- auth-signin.html     # Sign IN Page
+   |    |    |-- auth-signup.html     # Sign UP Page
    |    |
    |    |-- includes/       
    |    |    |-- footer.html          # Footer component
@@ -147,17 +143,17 @@ The theme used to style this starter provides the following files:
 
 When the project requires customization, we need to copy the original file that needs an update (from the virtual environment) and place it in the template folder using the same path. 
 
-For instance, if we want to customize the `footer.html` these are the steps:
+For instance, if we want to customize the `index.html` these are the steps:
 
 - `Step 1`: create the `templates` DIRECTORY inside your app 
 - `Step 2`: configure the project to use this new template directory
   - Edit `settings.py` TEMPLATES section 
 - `Step 3`: copy the `footer.html` from the original location (inside your ENV) and save it to the `YOUR_APP/templates` DIR
-  - Source PATH: `<YOUR_ENV>/LIB/admin_datta/templates/includes/footer.html`
-  - Destination PATH: `YOUR_APP/templates/includes/footer.html`
-- Edit the `footer.html` (Destination PATH)     
+  - Source PATH: `<YOUR_ENV>/LIB/admin_datta/templates/pages/index.html`
+  - Destination PATH: `YOUR_APP/templates/pages/index.html`
+- Edit the `index.html` (Destination PATH)     
 
-At this point, the default version of the `footer.html` shipped in the library is ignored by Django.
+At this point, the default version of the `index.html` shipped in the library is ignored by Django.
 
 In a similar way, all other files and components can be customized easily.
 
