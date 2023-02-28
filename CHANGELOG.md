@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.7] 2023-02-28
+### Changes
+
+- CleanUp MAPS (css, JS)
+
 ## [1.0.6] 2023-02-27
 ### Changes
 
