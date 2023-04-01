@@ -62,9 +62,9 @@ $ pip install git+https://github.com/app-generator/django-admin-datta.git
 > Add `LOGIN_REDIRECT_URL` and `EMAIL_BACKEND` of your Django project `settings.py` file:
 
 ```python
-    LOGIN_REDIRECT_URL = '/'
-    # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+LOGIN_REDIRECT_URL = '/'
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 ```
 
 <br />
@@ -72,12 +72,12 @@ $ pip install git+https://github.com/app-generator/django-admin-datta.git
 > Add `admin_datta` urls in your Django Project `urls.py` file
 
 ```python
-    from django.urls import path, include
+from django.urls import path, include
 
-    urlpatterns = [
-        ...
-        path('', include('admin_datta.urls')),
-    ]
+urlpatterns = [
+    ...
+    path('', include('admin_datta.urls')),
+]
 ```
 
 <br />
