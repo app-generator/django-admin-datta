@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.8] 2023-05-31
+### Changes
+
+- Fix #2: [Issue with delete functionality in Django admin inline formset](https://github.com/app-generator/django-admin-datta/issues/2)
+
 ## [1.0.7] 2023-02-28
 ### Changes
 
