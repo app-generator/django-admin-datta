@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.10] 2023-06-03
+### Changes
+
+- Fix #4: Admin form fieldset issue
+
 ## [1.0.9] 2023-06-02
 ### Changes
 
