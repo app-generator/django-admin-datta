@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [1.0.12] 2024-11-06
+### Changes
+
+- Update [Django Admin Datta Able - Documentation](https://app-generator.dev/docs/products/django-libs/theme-datta-able.html) Link
+- Update [Django Admin Datta Able - Sample Product](https://app-generator.dev/product/datta-able/django/) Link
+- Added [Getting Started with Django](https://app-generator.dev/docs/technologies/django/index.html) Link
+
 ## [1.0.11] 2024-09-17
 ### Changes
 
