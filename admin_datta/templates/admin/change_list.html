@@ -47,68 +47,72 @@
 {% endif %}
 
 {% block content %}
-    <div class="table-settings my-3">
-        <div class="row align-items-center justify-content-between">
-            <div class="col col-md-8 col-lg-3 col-xl-8">
-                {% block search %}{% search_form cl %}{% endblock %}
-            </div>
-            <div class="d-block mb-4 mb-md-0 col-4 col-md-2">
-                <div class="btn-toolbar mb-2 mb-md-0">
-                    <div class="btn-group">
-                        {% block object-tools-items %}
-                            {% change_list_object_tools %}
-                        {% endblock %}
+<div class="pc-container">
+    <div class="pc-content">
+        <div class="table-settings my-3">
+            <div class="row align-items-center justify-content-between">
+                <div class="col col-md-8 col-lg-3 col-xl-8">
+                    {% block search %}{% search_form cl %}{% endblock %}
+                </div>
+                <div class="d-block mb-4 mb-md-0 col-4 col-md-2">
+                    <div class="btn-toolbar mb-2 mb-md-0">
+                        <div class="btn-group">
+                            {% block object-tools-items %}
+                                {% change_list_object_tools %}
+                            {% endblock %}
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="row">
-        <div class="{% if cl.has_filters %}col-md-10{% else %}col-md-12{% endif %}">
-            {% block date_hierarchy %}
-                {% if cl.date_hierarchy %}{% date_hierarchy cl %}{% endif %}
-            {% endblock %}
-            <form id="changelist-form" method="post" {% if cl.formset and cl.formset.is_multipart %}
-                  enctype="multipart/form-data"{% endif %} novalidate>
-                {% csrf_token %}
-
-                {% if cl.formset %}
-                    <div>{{ cl.formset.management_form }}</div>
-                {% endif %}
-
-                <div class="card card-body border-0 shadow table-wrapper table-responsive">
-                    {% block result_list %}
-                        {% if action_form and actions_on_top and cl.show_admin_actions %}
-                            {% admin_actions %}
-                        {% endif %}
-
-                        {% result_list cl %}
-
-                        {% if action_form and actions_on_bottom and cl.show_admin_actions %}
-                            {% admin_actions %}
-                        {% endif %}
-                    {% endblock %}
-
-                    {% block pagination %}{% pagination cl %}{% endblock %}
-                </div>
-            </form>
-        </div>
-        <div class="col-md-2">
-            {% if cl.has_filters %}
-                {% block filters %}
-                    <div class="card card-body border-0 shadow table-wrapper table-responsive">
-                        <div class="card-header filter_card_header">
-                            <h5>{% trans 'Filter' %}</h5>
-                        </div>
-                        <div class="card-body">
-                            {% for spec in cl.filter_specs %}
-                                {% admin_list_filter cl spec %}
-                            {% endfor %}
-                        </div>
-                    </div>
+        <div class="row">
+            <div class="{% if cl.has_filters %}col-md-10{% else %}col-md-12{% endif %}">
+                {% block date_hierarchy %}
+                    {% if cl.date_hierarchy %}{% date_hierarchy cl %}{% endif %}
                 {% endblock %}
-            {% endif %}
+                <form id="changelist-form" method="post" {% if cl.formset and cl.formset.is_multipart %}
+                    enctype="multipart/form-data"{% endif %} novalidate>
+                    {% csrf_token %}
+
+                    {% if cl.formset %}
+                        <div>{{ cl.formset.management_form }}</div>
+                    {% endif %}
+
+                    <div class="card card-body border-0 shadow table-wrapper table-responsive">
+                        {% block result_list %}
+                            {% if action_form and actions_on_top and cl.show_admin_actions %}
+                                {% admin_actions %}
+                            {% endif %}
+
+                            {% result_list cl %}
+
+                            {% if action_form and actions_on_bottom and cl.show_admin_actions %}
+                                {% admin_actions %}
+                            {% endif %}
+                        {% endblock %}
+
+                        {% block pagination %}{% pagination cl %}{% endblock %}
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-2">
+                {% if cl.has_filters %}
+                    {% block filters %}
+                        <div class="card card-body border-0 shadow table-wrapper table-responsive">
+                            <div class="card-header filter_card_header">
+                                <h5>{% trans 'Filter' %}</h5>
+                            </div>
+                            <div class="card-body">
+                                {% for spec in cl.filter_specs %}
+                                    {% admin_list_filter cl spec %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    {% endblock %}
+                {% endif %}
+            </div>
         </div>
     </div>
+</div>
 {% endblock %}
