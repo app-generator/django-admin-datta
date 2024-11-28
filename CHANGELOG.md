@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.15] 2024-11-28
+### Changes
+
+- Update Footer Links
+
 ## [1.0.14] 2024-11-28
 ### Changes
 
