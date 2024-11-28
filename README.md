@@ -28,7 +28,7 @@ Modern template for **Django Admin**, Auth Pages (registration included) crafted
 > The premium version provides more features, priority on support, and is more often updated - [Live Demo](https://django-datta-pro.onrender.com/).
 
 - **Simple, Easy-to-Extend** Codebase
-- **Soft UI Design** Design - PRO Version
+- **Datta Able Design** - PRO Version
 - Bootstrap 5 CSS
 - **OAuth** - Github
 - **Extended User Profile**
