@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.0.13] 2024-11-28
+### Changes
+
+- Bump UI Version
+  - Boostrapp 5 Styling
+
 ## [1.0.12] 2024-11-06
 ### Changes
 
