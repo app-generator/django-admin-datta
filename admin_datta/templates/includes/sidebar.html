@@ -10,8 +10,9 @@
       </a>
     </div>
     <div class="navbar-content">
-      <ul class="pc-navbar">
 
+      <ul class="pc-navbar">
+      {% if request.user.is_superuser %}  
 
         {% admin_get_menu as app_list %}
         {% if app_list %}
@@ -46,8 +47,9 @@
             {% endif %}
           {% endfor %}
         {% endif %}
-
-
+      
+      <!-- superuser guard -->  
+      {% else %}
 
         <li class="pc-item pc-caption">
           <label>Navigation</label>
@@ -169,18 +171,18 @@
             <span class="pc-mtext">Sample page</span>
           </a>
         </li>
-
+      
+      {% endif %}  
       </ul>
       <div class="card pc-user-card my-3 bg-white bg-opacity-10">
         <div class="card-body text-center">
           <img src="{% static "assets/images/application/img-coupon.png" %}" alt="img" class="img-fluid w-50">
           <h5 class="mb-0 text-white mt-1">Datta Able</h5>
-          <p class="text-white">Checkout pro features</p>
-          <a href="https://codedthemes.com/item/datta-able-bootstrap-admin-template/" target="_blank" class="btn btn-warning">
+          <a href="https://app-generator.dev/product/datta-able-pro/django/" class="btn btn-warning">
             <svg class="pc-icon me-2">
               <use xlink:href="#custom-logout-1-outline"></use>
             </svg>
-            Upgrade to Pro
+            Upgrade to PRO
           </a>
         </div>
       </div>

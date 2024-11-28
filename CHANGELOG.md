@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.0.14] 2024-11-28
+### Changes
+
+- Update Sidebar
+  - Guard Superuser Items
+
 ## [1.0.13] 2024-11-28
 ### Changes
 
