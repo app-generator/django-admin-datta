@@ -19,6 +19,22 @@ Modern template for **Django Admin**, Auth Pages (registration included) crafted
   
 <br />
 
+### Build a Starter with [Django App Generator - Datta Design](https://app-generator.dev/tools/django-generator/datta/)
+
+- Access the [App Generator](https://app-generator.dev/tools/django-generator/) page
+- Select **Datta Dashboard** as the preferred design
+- (Optional) Design Database: edit models and fields
+- (Optional) Edit the fields for the extended user model
+- (Optional) Enable OAuth for GitHub
+- (Optional) Add Celery (async tasks)
+- (Optional) Enable Dynamic API Module
+- Docker Scripts
+- Render CI/Cd Scripts
+
+**The generated Django project is available as a ZIP Archive and also uploaded to GitHub.**
+
+<br />
+
 ![Django Datta Able - Modern template for Django Admin Section crafted on top of a modern Bootstrap Design.](https://user-images.githubusercontent.com/51070104/176118649-7233ffbc-6118-4f56-8cda-baa81d256877.png)
 
 <br />
