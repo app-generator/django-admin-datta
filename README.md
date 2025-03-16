@@ -1,4 +1,4 @@
-# [Django Datta Able](https://app-generator.dev/docs/products/django-libs/theme-datta-able.html)
+# [Django Datta Able](https://app-generator.dev/product/datta-able/django/)
 
 Modern template for **Django Admin**, Auth Pages (registration included) crafted on top of **Datta Able Dashboard**, an open-source **Bootstrap** design.
 
@@ -10,42 +10,46 @@ Modern template for **Django Admin**, Auth Pages (registration included) crafted
 
 ## **Features**
 
-- Design: Datta Able (Bootstrap)
-- **Sections Covered**: 
-  - `Admin Section`, reserved for `superusers`
-  - `All pages` managed by `Django.contrib.AUTH`
-  - `Registration` page
-  - `Misc pages`: colors, icons, typography, blank-page 
+- [Datta Able](https://app-generator.dev/docs/templates/bootstrap/datta-able.html) Design Integration
+  - Dashboard page
+  - Color, Typography, Icons 
+  - Authentication: Login, Register
   
 <br />
 
-### Build a Starter with [Django App Generator - Datta Design](https://app-generator.dev/tools/django-generator/datta/)
+## Pre-built Starters
 
-- Access the [App Generator](https://app-generator.dev/tools/django-generator/) page
-- Select **Datta Dashboard** as the preferred design
-- (Optional) Design Database: edit models and fields
-- (Optional) Edit the fields for the extended user model
-- (Optional) Enable OAuth for GitHub
-- (Optional) Add Celery (async tasks)
-- (Optional) Enable Dynamic API Module
-- Docker Scripts
-- Render CI/Cd Scripts
+### [Django Datta Able](https://app-generator.dev/product/datta-able/django/) `FREE`
 
-**The generated Django project is available as a ZIP Archive and also uploaded to GitHub.**
+> The FREE Version (MIT License) - [Live Demo](https://django-datta-pro.onrender.com/).
+
+- Simple, Easy-to-Extend Codebase
+- [Datta Able](https://app-generator.dev/docs/templates/bootstrap/datta-able.html) Design Integration 
+- Dynamic Tables
+- Dynamic API
+- **CLI for Coding Tasks**
+  - `Commit/rollback Git Changes`
+  - `Backup & restore DB`
+  - `Interact with Django Core` via CLI
+  - `Update Environment variables`
+  - `Update Dependencies`
+- Bootstrap 5 Styling 
+- Session-based Authentication, Password recovery
+- DB Persistence: SQLite (default), can be used with MySql, PgSql
+- Docker, CI/CD for Render
+- Vite for assets management 
+
+![Django Datta Able - Open-Source Django Starter](https://user-images.githubusercontent.com/51070104/176118649-7233ffbc-6118-4f56-8cda-baa81d256877.png)
 
 <br />
 
-![Django Datta Able - Modern template for Django Admin Section crafted on top of a modern Bootstrap Design.](https://user-images.githubusercontent.com/51070104/176118649-7233ffbc-6118-4f56-8cda-baa81d256877.png)
-
-<br />
-
-## [Datta Able PRO Version](https://app-generator.dev/product/datta-able-pro/django/)
+## [Django Datta Able](https://app-generator.dev/product/datta-able-pro/django/) `PRO`
 
 > The premium version provides more features, priority on support, and is more often updated - [Live Demo](https://django-datta-pro.onrender.com/).
 
-- **Simple, Easy-to-Extend** Codebase
-- **Datta Able Design** - PRO Version
-- Bootstrap 5 CSS
+- Simple, Easy-to-Extend Codebase
+- Datta Able PRO Design Integration
+- Bootstrap Styling
 - **OAuth** - Github
 - **Extended User Profile**
 - **API** via DRF 
@@ -57,5 +61,25 @@ Modern template for **Django Admin**, Auth Pages (registration included) crafted
 
 <br />
 
+## `Customize` with [Django App Generator](https://app-generator.dev/tools/django-generator/)
+
+- Access the [App Generator](https://app-generator.dev/tools/django-generator/) page
+- Select the preferred design
+- (Optional) Design Database: edit models and fields
+- (Optional) Edit the fields for the extended user model
+- (Optional) Enable OAuth for GitHub
+- (Optional) Add Celery (async tasks)
+- (Optional) Enable Dynamic API Module
+- Docker Scripts
+- Render CI/Cd Scripts
+
+**The generated Django project is available as a ZIP Archive and also uploaded to GitHub.**
+
+![Django Generator - User Interface for choosing the Design](https://github.com/user-attachments/assets/b989c434-1c53-49ff-8dda-b46dbfc142ac) 
+
+![Django App Generator - User Interface for Edit the Extended User Model](https://github.com/user-attachments/assets/f1a5fb68-a5ba-49c9-a3ae-91716de09912) 
+
+<br />
+
 ---
-**[Django Datta Able](https://app-generator.dev/docs/products/django-libs/theme-datta-able.html)** - Modern Django Admin Interface provided by **[App-Generator](https://app-generator.dev)**
+**[Django Datta Able](https://app-generator.dev/product/datta-able/django/)** - Modern Django Admin Interface provided by **[App-Generator](https://app-generator.dev)**

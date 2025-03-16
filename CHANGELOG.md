@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## [1.0.17] 2025-03-16
+### Changes
+
+- Remove ADMIN section styling
+- Update RM Links
+  - [Django Datta Able](https://app-generator.dev/product/datta-able/django/) - `FREE` version
+  - [Datta Able PRO Version](https://app-generator.dev/product/datta-able-pro/django/) - `PRO` version  
+  - [Django App Generator](https://app-generator.dev/tools/django-generator)
+
 ## [1.0.16] 2024-12-16
 ### Changes
 
