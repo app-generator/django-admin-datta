@@ -1,6 +1,6 @@
-# [Django Datta Able](https://app-generator.dev/product/datta-able/django/)
+# [Datta Able](https://app-generator.dev/product/datta-able/) Django Integration
 
-Modern template for **Django Admin**, Auth Pages (registration included) crafted on top of **Datta Able Dashboard**, an open-source **Bootstrap** design.
+Modern template for **Django** built with **[Datta Able](https://app-generator.dev/product/datta-able/)**, an open-source `Bootstrap` UI Kit released by [CodedThemes](https://app-generator.dev/agency/codedthemes/).
 
 - [Django Admin Datta Able](https://app-generator.dev/docs/products/django-libs/theme-datta-able.html) - Documentation & Support Links
 - [Django Datta Able Dashboard](https://app-generator.dev/product/datta-able/django/) - The product that uses the library
@@ -24,7 +24,7 @@ Modern template for **Django Admin**, Auth Pages (registration included) crafted
 > The FREE Version (MIT License) - [Live Demo](https://django-datta-pro.onrender.com/).
 
 - Simple, Easy-to-Extend Codebase
-- [Datta Able](https://app-generator.dev/docs/templates/bootstrap/datta-able.html) Design Integration 
+- [Datta Able](https://app-generator.dev/product/datta-able/) Integration 
 - Dynamic Tables
 - Dynamic API
 - **CLI for Coding Tasks**
@@ -82,4 +82,4 @@ Modern template for **Django Admin**, Auth Pages (registration included) crafted
 <br />
 
 ---
-**[Django Datta Able](https://app-generator.dev/product/datta-able/django/)** - Modern Django Admin Interface provided by **[App-Generator](https://app-generator.dev)**
+**[Datta Able](https://app-generator.dev/product/datta-able/)** Django Integration - Library provided by **[App-Generator](https://app-generator.dev)**

@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [1.0.18] 2025-04-12
+### Changes
+
+- Update RM Links
+  - [Datta Able](https://app-generator.dev/product/datta-able/) Design 
+  - [CodedThemes](https://app-generator.dev/agency/codedthemes/) Agency
+
 ## [1.0.17] 2025-03-16
 ### Changes
 
