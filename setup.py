@@ -8,15 +8,15 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
 name='django-admin-datta',
-version='1.0.18',
+version='1.0.19',
 zip_safe=False,
 packages=find_packages(),
 include_package_data=True,
 description='Modern template for Django Admin - Datta Able Design',
 long_description=README,
 long_description_content_type="text/markdown",
-url='https://app-generator.dev/docs/products/django-libs/theme-datta-able.html',
-author='AppSeed.us',
+url='https://app-generator.dev/product/datta-able/',
+author='App-Generator.dev',
 author_email='support@appseed.us',
 license='MIT License',
 classifiers=[
